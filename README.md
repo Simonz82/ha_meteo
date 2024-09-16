@@ -6,9 +6,6 @@
 <p>&nbsp;</p>
 <p><strong>PREVIEW:<br /><br /></strong></p>
 <p><strong><img src="https://github.com/Simonz82/ha_meteo/blob/main/example/red.gif" alt="Red Effect" /></strong></p>
-<p>&nbsp;</p>
 <p><strong><img src="https://github.com/Simonz82/ha_meteo/blob/main/example/green.gif" alt="Green Effect" /></strong></p>
-<p>&nbsp;</p>
 <p><strong><img src="https://github.com/Simonz82/ha_meteo/blob/main/example/orange.gif" alt="Orange Effect" /></strong></p>
-<p>&nbsp;</p>
 <p>enjoy!</p>
