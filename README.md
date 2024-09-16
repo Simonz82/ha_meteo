@@ -1,4 +1,4 @@
-<h2><span style="text-decoration: underline;"><strong>Meteo card for home assistant</strong></span></h2>
+<h2><span style="text-decoration: underline;"><strong>🌤️ Meteo card for home assistant</strong></span></h2>
 <p>With the help of various guides found on the web, I wanted to share the card I use in HA to display the week's weather</p>
 <p>Instructions:</p>
 <p>1. create a new card in HA by pasting the contents of the file: meteo_card.txt</p>
