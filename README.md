@@ -3,10 +3,8 @@
 <p dir="auto">Instructions:</p>
 <ol dir="auto">
 <li>from Hacs, install:<br />a. clock-weather-card</li>
-<li>create a new card in HA by pasting the contents of the file: garbage_card.txt</li>
-<li>in the HA file sensor.yaml, insert the contents of garbage_sensor.txt</li>
-<li>in the www folder, create a folder with the garbage images inside</li>
-<li>modify the various entities with your personal ones</li>
+<li>create a new card in HA by pasting the contents of the file: meteo_card.txt</li>
+<li>in line 18 and 20, modify with your temperature sensor and value</li>
 </ol>
 <p><strong>PREVIEW:<br /><br /></strong></p>
 <p><strong><img src="https://github.com/Simonz82/ha_meteo/blob/main/example/red.gif" alt="Red Effect" /></strong></p>
