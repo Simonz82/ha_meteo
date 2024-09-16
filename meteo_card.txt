@@ -1,0 +1,63 @@
+type: custom:clock-weather-card
+entity: weather.forecast_home
+forecast_rows: 5
+card_mod:
+  style: |
+    ha-card {
+      border: 0px solid white;
+      background: rgba(255, 255, 255, 0);
+      padding: 0;
+      box-shadow: 
+        0 0 5px rgba(255, 255, 255, 0.3), 
+        0 0 5px rgba(255, 255, 255, 0.3), 
+        0 0 10px rgba(255, 255, 255, 0.3), 
+        0 0 10px rgba(255, 255, 255, 0.3);
+      position: relative;
+      animation: neon-animation 5s infinite linear;
+      --neon-color: 
+        {% if states('sensor.temperature') | float <= 25 %}
+          lightgreen
+        {% elif states('sensor.temperature') | float <= 30 %}
+          orange
+        {% else %}
+          red
+        {% endif %};
+    }
+
+    @keyframes neon-animation {
+      0% {
+        box-shadow: 
+          0 0 5px var(--neon-color), 
+          0 0 5px var(--neon-color), 
+          0 0 10px var(--neon-color), 
+          0 0 10px var(--neon-color);
+      }
+      25% {
+        box-shadow: 
+          5px 0 5px var(--neon-color), 
+          5px 0 5px var(--neon-color), 
+          10px 0 10px var(--neon-color), 
+          10px 0 10px var(--neon-color);
+      }
+      50% {
+        box-shadow: 
+          0 5px 5px var(--neon-color), 
+          0 5px 5px var(--neon-color), 
+          0 10px 10px var(--neon-color), 
+          0 10px 10px var(--neon-color);
+      }
+      75% {
+        box-shadow: 
+          -5px 0 5px var(--neon-color), 
+          -5px 0 5px var(--neon-color), 
+          -10px 0 10px var(--neon-color), 
+          -10px 0 10px var(--neon-color);
+      }
+      100% {
+        box-shadow: 
+          0 -5px 5px var(--neon-color), 
+          0 -5px 5px var(--neon-color), 
+          0 -10px 10px var(--neon-color), 
+          0 -10px 10px var(--neon-color);
+      }
+    }
