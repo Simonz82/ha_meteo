@@ -11,3 +11,7 @@
 <p><strong><img src="https://github.com/Simonz82/ha_meteo/blob/main/example/green.gif" alt="Green Effect" /></strong></p>
 <p><strong><img src="https://github.com/Simonz82/ha_meteo/blob/main/example/orange.gif" alt="Orange Effect" /></strong></p>
 <p>enjoy!</p>
+
+if you would like to support the various shares I do please help me with a kind offer:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C713VTGJ)
